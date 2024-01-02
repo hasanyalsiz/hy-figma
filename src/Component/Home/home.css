@@ -1,0 +1,174 @@
+.home {
+  height: 88vh;
+  width: 75%;
+  margin-left: 300px;
+  position: relative;
+}
+.student-section {
+  height: 19rem;
+}
+.log-img {
+  position: absolute;
+  border-radius: 10px;
+  opacity: 0.11;
+  z-index: -1;
+  height: 16rem;
+  width: 40rem;
+  backdrop-filter: blur(10px);
+}
+.logarithm-section {
+  height: 16rem;
+  gap: 3rem;
+}
+.logarithm {
+  height: 16rem;
+  width: 680px;
+}
+.level {
+  height: 16rem;
+  width: 340px;
+}
+.progress-bar {
+  width: 60%;
+  background-color: #fedfd8;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  height: 11px;
+}
+
+.progress-bar-fill {
+  width: 24%;
+  border-radius: 25px;
+  background: linear-gradient(to right, #fff, #e74c3c);
+
+  text-align: right;
+  padding: 5px;
+}
+.subto {
+  padding: 4px 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #ff7b5b;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  display: inline-block;
+}
+.timehr {
+  padding: 7px 10px !important;
+  margin-left: -25px;
+}
+.log-p p {
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: 400;
+}
+.btn-go {
+  background-color: #eaebe5;
+  border: 2px solid #a1c8cb;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+.btn-start {
+  background-color: #ff7b5b;
+  padding: 5px 25px;
+  border-radius: 25px;
+  border: none;
+}
+.log-level {
+  background-color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.level {
+  background-color: #d9e7e7;
+  border-radius: 15px;
+}
+.gradient-wrapper {
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: yellow;
+  background: -webkit-linear-gradient(orange, white);
+  background: -o-linear-gradient(orange, white);
+  background: -moz-linear-gradient(orange, white);
+  background: linear-gradient(orange, white);
+}
+.gradient-wrapperr {
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: yellow;
+  background: -webkit-linear-gradient(#e6b1ff, white);
+  background: -o-linear-gradient(#e6b1ff, white);
+  background: -moz-linear-gradient(#e6b1ff, white);
+  background: linear-gradient(#e6b1ff, white);
+}
+.gradient-wrapperrr {
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: yellow;
+  background: -webkit-linear-gradient(#a8e3d5, white);
+  background: -o-linear-gradient(#a8e3d5, white);
+  background: -moz-linear-gradient(#a8e3d5, white);
+  background: linear-gradient(#a8e3d5, white);
+}
+
+#maincircle {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+}
+.circle-bg {
+  background-color: white;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 20px;
+}
+.circle-bg p {
+  font-size: 12px;
+}
+.grafic-bar {
+  margin-top: 30px;
+  width: 40px;
+  height: 80px;
+  background: linear-gradient(to bottom, #c99ae1, #ffffff);
+  border-radius: 10px;
+}
+.grafic-bar2 {
+  margin-top: 10px;
+  width: 40px;
+  height: 100px;
+  background: linear-gradient(to bottom, #9be0cb, #ffffff);
+  border-radius: 10px;
+}
+.grafic-bar3 {
+  margin-top: 38px;
+  width: 40px;
+  height: 70px;
+  background: linear-gradient(to bottom, #ffa909, #ffffff);
+  border-radius: 10px;
+}
+.grafic-bar4 {
+  width: 40px;
+  height: 110px;
+  background: linear-gradient(to bottom, #fa4709, #ffffff);
+  border-radius: 10px;
+}
+.static {
+  height: 15rem;
+  width: 40%;
+  background-color: #fff0e1;
+  border-radius: 10px;
+}
+.tasks {
+  height: 15rem;
+  width: 60%;
+  background-color: #fff0e1;
+  border-radius: 10px;
+}
